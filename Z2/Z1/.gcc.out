@@ -1,0 +1,4 @@
+/rhome/b/bkarovic1/workspace/ASP/Z2/Z1/main.cpp: In function ‘void testBrojElemenata()’:
+/rhome/b/bkarovic1/workspace/ASP/Z2/Z1/main.cpp:518:8: error: no match for ‘operator[]’ (operand types are ‘DvostraniRed<int>’ and ‘int’)
+     red[0] = 15;
+        ^

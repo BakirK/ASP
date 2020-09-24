@@ -1,0 +1,61 @@
+==14860== Memcheck, a memory error detector
+==14860== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==14860== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==14860== Command: /rhome/b/bkarovic1/workspace/ASP/PZ5/Z1/.runme
+==14860== Parent PID: 14853
+==14860== 
+==14860== 
+==14860== HEAP SUMMARY:
+==14860==     in use at exit: 0 bytes in 0 blocks
+==14860==   total heap usage: 11 allocs, 11 frees, 72,864 bytes allocated
+==14860== 
+==14860== All heap blocks were freed -- no leaks are possible
+==14860== 
+==14860== For counts of detected and suppressed errors, rerun with: -v
+==14860== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+dl_catch_exception (dl-error-skeleton.c:196)
+==14840==    by 0x400E617: _dl_map_object_deps (dl-deps.c:249)
+==14840==    by 0x4003EA5: dl_main (rtld.c:1726)
+==14840==    by 0x401ADCF: _dl_sysdep_start (dl-sysdep.c:253)
+==14840==    by 0x4002127: _dl_start_final (rtld.c:414)
+==14840==    by 0x4002127: _dl_start (rtld.c:521)
+==14840==    by 0x4001097: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+==14840== Jump to the invalid address stated on the next line
+==14840==    at 0x556: ???
+==14840==    by 0x4005C06: open_verify.constprop.7 (dl-load.c:1668)
+==14840==    by 0x4006357: open_path (dl-load.c:1980)
+==14840==    by 0x4009188: _dl_map_object (dl-load.c:2220)
+==14840==    by 0x400E311: openaux (dl-deps.c:63)
+==14840==    by 0x401BC6A: _dl_catch_exception (dl-error-skeleton.c:196)
+==14840==    by 0x400E617: _dl_map_object_deps (dl-deps.c:249)
+==14840==    by 0x4003EA5: dl_main (rtld.c:1726)
+==14840==    by 0x401ADCF: _dl_sysdep_start (dl-sysdep.c:253)
+==14840==    by 0x4002127: _dl_start_final (rtld.c:414)
+==14840==    by 0x4002127: _dl_start (rtld.c:521)
+==14840==    by 0x4001097: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+==14840==  Address 0x556 is not stack'd, malloc'd or (recently) free'd
+==14840== 
+==14840== 
+==14840== Process terminating with default action of signal 11 (SIGSEGV): dumping core
+==14840==  Bad permissions for mapped region at address 0x556
+==14840==    at 0x556: ???
+==14840==    by 0x4005C06: open_verify.constprop.7 (dl-load.c:1668)
+==14840==    by 0x4006357: open_path (dl-load.c:1980)
+==14840==    by 0x4009188: _dl_map_object (dl-load.c:2220)
+==14840==    by 0x400E311: openaux (dl-deps.c:63)
+==14840==    by 0x401BC6A: _dl_catch_exception (dl-error-skeleton.c:196)
+==14840==    by 0x400E617: _dl_map_object_deps (dl-deps.c:249)
+==14840==    by 0x4003EA5: dl_main (rtld.c:1726)
+==14840==    by 0x401ADCF: _dl_sysdep_start (dl-sysdep.c:253)
+==14840==    by 0x4002127: _dl_start_final (rtld.c:414)
+==14840==    by 0x4002127: _dl_start (rtld.c:521)
+==14840==    by 0x4001097: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+==14840== 
+==14840== HEAP SUMMARY:
+==14840==     in use at exit: 0 bytes in 0 blocks
+==14840==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==14840== 
+==14840== All heap blocks were freed -- no leaks are possible
+==14840== 
+==14840== For counts of detected and suppressed errors, rerun with: -v
+==14840== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

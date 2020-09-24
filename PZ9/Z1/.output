@@ -1,0 +1,17 @@
+Ukupno vrijeme dodavanja elemenata za binarno stablo je 1193 [ms].
+Ukupno vrijeme dodavanja elemenata za nizMapu je 283 [ms].
+Ukupno vrijeme dodavanja elemenata za HashMapu bez kolizija je 623 [ms].
+Ukupno vrijeme dodavanja elemenata za HashMapu sa kolizijama je 1076 [ms].
+Ukupno vrijeme dodavanja elemenata za HashMapu sa najobicnijim (nesigurnim) hashom je 479 [ms].
+
+Ukupno vrijeme pristupanja elementima za binarno stablo je 1178 [ms].
+Ukupno vrijeme pristupanja elementima za nizMapu je 264 [ms].
+Ukupno vrijeme pristupanja elementima za HashMapu bez kolizija je 510 [ms].
+Ukupno vrijeme pristupanja elementima za HashMapu sa kolizijama je 542 [ms].
+Ukupno vrijeme dodavanja elemenata za HashMapu sa najobicnijim (nesigurnim) hashom je 2 [ms].
+
+Ukupno vrijeme brisanja elemenata za binarno stablo je 1 [ms].
+Ukupno vrijeme brisanja elemenata za nizMapu je 1 [ms].
+Ukupno vrijeme brisanja elemenata za HashMapu bez kolizija je 1 [ms].
+Ukupno vrijeme brisanja elemenata za HashMapu sa kolizijama je 1 [ms].
+Ukupno vrijeme brisanja elemenata za HashMapu sa najobicnijim (nesigurnim) hashom je 0 [ms].
